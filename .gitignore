@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Dataset - DO NOT UPLOAD
+data/
+mad_candidates.csv
+
+# Generated outputs
+outputs/
+
+# Temporary files
+temp_helicopter/
+temp_helicopter_clips/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
