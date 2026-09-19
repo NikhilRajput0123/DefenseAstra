@@ -1,14 +1,15 @@
+import sys, os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), 'src')))
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import FileResponse
 import torch
-import os
 import shutil
 import wave
 import numpy as np
 
-from src.models.classifier import NoiseClassifier
-from src.models.unet import SpectralUNet
-from src.train import get_stft_features
+from models.classifier import NoiseClassifier
+from models.unet import SpectralUNet
+from train import get_stft_features
 
 app = FastAPI(title='DefenseAstra API', description='AI Acoustic Intelligence & Enhancement Backend')
 
