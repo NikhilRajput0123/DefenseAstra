@@ -27,11 +27,11 @@ The system combines a deep-learning noise classifier with a lightweight spectral
 
 ---
 
-## 🧠 AI Models
+# 🧠 AI Models
 
 NIRVAN AI uses two trained PyTorch models.
 
-### 1. Noise Spectrogram Classifier
+## 1. Noise Spectrogram Classifier
 
 The classifier identifies the dominant noise/environmental class from the input audio.
 
