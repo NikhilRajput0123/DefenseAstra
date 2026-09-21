@@ -32,6 +32,8 @@ temp_helicopter_clips/
 # IDE
 .vscode/
 .idea/
+# Model release archive - already hosted on GitHub Releases
+*.zip
 
 # OS
 .DS_Store
