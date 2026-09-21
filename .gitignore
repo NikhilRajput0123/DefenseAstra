@@ -12,8 +12,18 @@ env/
 data/
 mad_candidates.csv
 
+# Dataset archives - DO NOT UPLOAD
+*.7z
+*.7z.*
+
 # Generated outputs
 outputs/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
 
 # Temporary files
 temp_helicopter/

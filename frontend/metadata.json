@@ -1,0 +1,6 @@
+{
+  "name": "Audio Signal Processing Workstation",
+  "description": "NIRVAN Defence Audio Signal Processing & Dataset Intelligence workstation with live microphone recording, noise ingestion, SNR mixing, and DSP analysis.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
